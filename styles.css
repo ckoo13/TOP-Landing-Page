@@ -32,6 +32,7 @@ img {
 /* Box */
 .box {
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .box-text {
@@ -78,22 +79,44 @@ img {
 
 /* Padding */
 .py-lg {
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 .py-md {
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .py-sm {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 /* Buttons */
 .btn {
     cursor: pointer;
     display: inline-block;
-    
+    background: none;
+    border: 1px #000 solid;
+    border-radius: 50px;
+    padding: 7px 16px;
+    line-height: 2.0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-dark {
+    background-color: rgba(91,  26, 18, 1);
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #fff;
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.big-btn {
+    width: 150px;
+    height: 50px;
 }
 
 /* Navbar */
@@ -133,3 +156,48 @@ img {
     color: #fff;
     text-decoration: none;
 }
+
+/* Box B */
+.clients {
+    background-color: var(--color-primary);
+    padding-top: 20px;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.clients-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients-container img {
+    background-color: #fff;
+    height: 200px;
+    width: 250px;
+    padding: 20px 20px;
+}
+
+/* Box C */
+.testimonial {
+    background-color: #000;
+}
+
+.testimonial-content {
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote {
+    color: #fff;
+    text-align: right;
+    font-style: italic;
+    margin-right: 60px;
+}
+
+
+
